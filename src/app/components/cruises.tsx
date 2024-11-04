@@ -32,7 +32,7 @@ export default function CruisesComponent() {
                   To <div className="font-bold">{cruises.endPort}</div>
                 </div>
                 <div className="pt-2">
-                  <p className="">£{cruises.price}</p>
+                  <p className="">From only - £{cruises.price}</p>
                 </div>
               </div>
             </div>
