@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        cruiseBlue: "#0056a2",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
