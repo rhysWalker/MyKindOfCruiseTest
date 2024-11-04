@@ -6,7 +6,7 @@ export default function CruisesComponent() {
   const cruiseList = cruises;
   return (
     <>
-      <h2 className="font-bsold py-10 text-lg">Popular Cruises</h2>
+      <h2 className="font-bold text-lg">Popular Cruises</h2>
       <div className="grid grid-cols-5 gap-4">
         {cruiseList.map((cruises, i) => (
           <Link key={i} href={`/cruises/${cruises.name}`}>
